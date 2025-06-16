@@ -1,0 +1,33 @@
+{
+  "name": "call-accounting",
+  "version": "1.0.0",
+  "description": "Système de comptabilité d'appels en temps réel",
+  "main": "welcome.js",
+  "scripts": {
+    "start": "node welcome.js",
+    "dev": "nodemon welcome.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.14.1",
+    "socket.io": "^4.8.1",
+    "winston": "^3.11.0",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
